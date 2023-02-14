@@ -1,0 +1,60 @@
+body {
+  background-color: rgba(221, 97, 25, 0.616);
+}
+
+h1 {
+  text-align: center;
+  color: rgba(212, 94, 73, 0.863);
+  background-color: rgba(28, 1, 49, 0.863);
+  border-radius: 4px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: rgba(209, 47, 19, 0.863);
+}
+
+.centraliza {
+  display: block;
+  margin: 0px auto;
+}
+
+#descricao {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+  text-align: justify;
+  color: rgba(114, 5, 11, 0.863);
+  margin: 10px;
+}
+
+#habilidades {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  color: rgba(114, 5, 11, 0.863);
+}
+
+ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(209, 47, 19, 0.863);
+  margin: 10px;
+  padding: 30px;
+  width: 115px;
+  border-radius: 4px;
+  border: solid 2px rgba(28, 1, 49, 0.863);
+}
+
+.indice {
+  color: rgba(28, 1, 49, 0.863);
+}
+
+#blog {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(28, 1, 49, 0.863);
+  background-color: rgba(209, 47, 19, 0.863);
+  border-radius: 4px;
+  border: solid 2px rgba(28, 1, 49, 0.863);
+  margin: 10px;
+  padding: 5px;
+  font-size: 17px;
+}
