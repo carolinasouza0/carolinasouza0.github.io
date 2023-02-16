@@ -9,36 +9,42 @@ h1 {
   border-radius: 4px;
   margin: 10px;
 }
+
+#nome {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  color: rgba(209, 47, 19, 0.863);
+  display: inline;
+  left: 215px;
+  top: 50px;
+}
+
 ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: rgba(209, 47, 19, 0.863);
-  margin: 10px;
-  padding: 30px;
-  width: 115px;
-  border-radius: 4px;
-  border: solid 2px rgba(28, 1, 49, 0.863);
+  display: inline;
 }
 
 .summary a {
   color: rgba(28, 1, 49, 0.863);
-}
-
-#nome {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
   display: inline-block;
-  color: rgba(209, 47, 19, 0.863);
-  border: solid 2px rgba(28, 1, 49, 0.863);
-  border-radius: 4px;
-  padding: 10px;
+  margin-left: 15px;
 }
+.summary {
+  display: inline-block;
+  background-color: rgba(209, 47, 19, 0.863);
+  padding: 15px;
+  list-style: none;
+}
+/* editar sumario, talvez o padding. pesquisar mais sobre inline e block - entender como funciona as posições na tela */
 
 .picture img {
-  display: inline-block;
-  margin: auto;
-  border-radius: 4px;
+  display: inline;
+  position: absolute;
+  left: 200px;
+  top: 100px;
   width: 400px;
-  padding: 10px;
+  padding: 30px;
+  border: 2px solid rgba(114, 5, 11, 0.863);
 }
 .pictures {
   width: 100px;
@@ -49,8 +55,11 @@ ul {
   line-height: 20px;
   text-align: justify;
   color: rgba(114, 5, 11, 0.863);
-  display: inline-block;
-  margin-left: 10px;
+  display: inline;
+  position: absolute;
+  left: 750px;
+  top: 100px;
+  margin: 10px;
   width: 400px;
 }
 
@@ -59,6 +68,10 @@ ul {
   text-align: justify;
   color: rgba(114, 5, 11, 0.863);
   width: 400px;
+  display: inline;
+  position: absolute;
+  left: 750px;
+  top: 270px;
 }
 
 #blog {
@@ -66,8 +79,17 @@ ul {
   color: rgba(28, 1, 49, 0.863);
   background-color: rgba(209, 47, 19, 0.863);
   border-radius: 4px;
+  text-decoration: none;
   border: solid 2px rgba(28, 1, 49, 0.863);
   margin: 10px;
-  padding: 5px;
+  padding: 15px;
   font-size: 17px;
+  display: inline;
+  position: absolute;
+  top: 490px;
+  left: 759px;
+}
+#blog:hover {
+  padding: 25px;
+  color: rgba(114, 5, 11, 0.863);
 }
