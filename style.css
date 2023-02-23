@@ -28,6 +28,7 @@ body {
 
 .navigation a {
   text-decoration: none;
+  color: rgba(29, 15, 29, 1);
 }
 
 .navigation a:hover {
