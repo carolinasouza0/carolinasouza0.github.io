@@ -1,49 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfólio Web</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/style.css">
+  <title>Portfólio</title>
 </head>
 
 <body>
-  <h1> Meu Portfólio </h1>
-
-  <div class="summary">
+  <header id="cabecalho">
+    <h1 id="titulo"> Portfólio</h1>
+  </header>
+  <nav class="navigation">
     <ul>
-      <li><em> <a href="#nome"> Nome</a></em></li><br>
-      <li><em> <a href="#descricao"> Descrição</a></em></li><br>
-      <li><em> <a href="#habilidades"> Habilidades</a></em></li><br>
-      <li><em> <a href="#blog"> Blog favorito </a></em></li>
+      <li><a href="#sobre-mim">Sobre mim</a><span> | </span></li>
+      <li><a href="#descricao">Descrição</a><span> | </span></li>
+      <li><a href="#licoes_aprendidas">Lições Aprendidas</a><span> | </span></li>
+      <li><a href="#licoes_a_aprender">Lições a aprender</a><span> | </span></li>
+      <li><a href="#contato">Contato</a></li>
     </ul>
-  </div>
+  </nav>
+  <section class="my-picture">
+    <img id="minha_foto" src="/carol1.jpg" alt="foto de frente com camisa vermelha">
+  </section>
 
-  <h2 id="nome"> Carolina Anastácia de Souza Pedrosa </h2><br>
-
-  <div class="picture">
-    <a href="/carol.jpeg" target="_blank"><img src="/carol.jpeg" alt="foto do rosto de Carolina, vestindo camisa vermelha" width="600px"></a>
-  </div>
-
-  <div class="description">
-    <p id="descricao"> Formada em Letras/Português pela <em> Universidade Federal de Pernambuco. </em> Atualmente em processo de transição de carreira, estudante de desenvolvimento web na <em>Trybe. </em></p>
-    <p> <strong> Nacionalidade: </strong> Brasileira </p>
-    <p> <strong> Localidade: </strong> Olinda, Pernambuco. </p>
-  </div>
-
-  <div class="habilities">
-    <ol id="habilidades">
-      <li> <strong>Perseverança e Resiliência. </strong></li><br>
-      <li> <strong>Leitora ávida. </strong></li><br>
-      <li> <strong>Inglês avançado.</strong></li><br>
-      <li> <strong>Git & Github. </strong></li><br>
-      <li> <strong>HTML e CSS.</strong></li> <br>
-    </ol><br>
-  </div>
-
-
-  <a id="blog" href="https://www.wattpad.com/home?locale=pt_PT" target="_blank"> <em>Bora ler Fanfic no Wattpad? Clica aqui</em></a>
-
+  <article id="descricao" class="lado-esquerdo">
+    <p>Desde que entrei na Trybe tenho valorizado mais o processo de aprendizagem, cada obstáculo e cada vitória. Assim, além de aproveitar todo o arcabouço de hard skills que a escola nos oferece, também reavalio meus métodos de estudo e como construir uma carreira apoiada nas ferramentas proporcionadas pelas soft skills.</p>
+    <table border="2">
+      <tr>
+        <th>Soft Skills</th>
+        <th>Carreira</th>
+        <th>Módulos</th>
+      </tr>
+      <tr>
+        <td colspan="3">Fundamentos</td>
+      </tr>
+      <tr>
+        <td colspan="3">Front-End</td>
+      </tr>
+      <tr>
+        <td colspan="3">Back-End</td>
+      </tr>
+      <tr>
+        <td colspan="3">Ciência da Computação</td>
+      </tr>
+    </table>
+  </article>
+  <aside id="sobre-mim" class="lado-direito">
+    <p><span>Sobre mim:</span> Me chamo Carol, tenho 32 anos e resido em Olinda/Pernambuco. Sou formada em Letras/Português pela Universidade Federal de Pernambuco. Atualmente estou em transição de carreira, sou estudante de desenvolvimento web pela Trybe. Amante da tecnologia, das línguas e da literatura.</p>
+  </aside>
+  <section>
+    <ol id="licoes_aprendidas">
+      <li>Perseverança</li>
+      <li>Empatia</li>
+      <li>Gerenciamento do tempo</li>
+      <li>Protagonismo</li>
+      <li>Unix</li>
+      <li>Git</li>
+      <li>Github</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Slack</li>
+    </ol>
+  </section>
+  <section>
+    <ul id="licoes_a_aprender">
+      <li>CSS Responsive</li>
+      <li>JavaScript</li>
+      <li>DOM</li>
+      <li>Forms</li>
+      <li>ES6</li>
+      <li>React</li>
+      <li>SQL</li>
+      <li>Node</li>
+      <li>MongoDB</li>
+      <li>Python</li>
+    </ul>
+  </section>
+  <section id="contato" class="contact">
+    <p class="info">Contatos:</p>
+    <p>Email: carolinasouza0@gmail.com</p>
+    <a href="https://www.linkedin.com/in/carolina-pedrosa0/" target="_blank">Linkedin</a>
+    <span> | </span>
+    <a href="https://github.com/carolinasouza0" target="_blank">Github</a>
+  </section>
+  <footer id="rodape">
+    <p>Todos os direitos reservados. Carolina</p>
+  </footer>
 </body>
 
 </html>
